@@ -19,3 +19,11 @@ To use the components in your app, import them as follows:
 ```tsx
 import { Button } from "@/components/ui/button";
 ```
+
+<!-- Instructions:
+
+1. npm install
+2. add a .env file with this code in it:
+DATABASE_URL=postgres://postgres:YOURSQLDATABASEPASSWORD@localhost:5432/bms
+3. npx prisma generate
+4. npx prisma migrate dev -->
